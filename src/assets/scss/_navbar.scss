@@ -1,0 +1,112 @@
+.main_section {
+  display: flex;
+  align-items: center;
+  // height: 9vh;
+  justify-content: space-between;
+  // background-color: rgba(0, 102, 73, 1);
+    padding-top: 1%;
+    padding-bottom: 1%;
+  .desktopHide {
+    display: none;
+  }
+  .logo {
+    // width: 20%;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    color: white;
+    // color: rgba(0, 102, 73, 1);
+  }
+  .contactBtn {
+    // background-color: rgba(0, 102, 73, 1);
+    background-color: white;
+    // color: white;
+    color: black;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    border-radius: 5px;
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .nav_section {
+    // width: 75%;
+
+    a {
+      // color: black;
+      color: white;
+      font-family: Montserrat;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: right;
+      padding-right: 1.2rem !important;
+    }
+  }
+}
+
+.sticky_nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1111;
+  background-color: white !important;
+  .logo {
+    color: rgba(0, 102, 73, 1) !important;
+  }
+  .nav_section {
+    a {
+      color: black !important;
+    }
+  }
+
+  .contactBtn {
+    // background-color: rgba(0, 102, 73, 1);
+    background-color: rgba(0, 102, 73, 1) !important;
+    // color: white;
+    color: white !important;
+
+    svg {
+      fill: white;
+    }
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .main_section {
+    .mobileHide {
+      display: none !important;
+    }
+    .logo {
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 30px;
+    }
+    .contactBtn {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20px;
+      padding-top: 0.4rem;
+      padding-bottom: 0.4rem;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      svg {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+}

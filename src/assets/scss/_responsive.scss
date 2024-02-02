@@ -1,0 +1,334 @@
+@media screen and (max-width: 510px) {
+  .main_section1 {
+    .title {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 28px;
+      text-align: center;
+    }
+
+    .image_section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+
+      .image {
+        width: 200px;
+        height: 200px;
+      }
+
+      .description_section {
+        text-align: center;
+        .title2 {
+          font-size: 20px;
+          line-height: 30px;
+          font-weight: 500;
+        }
+      }
+    }
+    .getTouchBtn {
+      font-size: 16px;
+      line-height: 16.38px;
+      font-weight: 400;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+  }
+
+  .main_section2 {
+    .left_side {
+      text-align: left;
+      p {
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 33px;
+        letter-spacing: 0em;
+      }
+      .contactBtn {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 15px;
+      }
+    }
+    .right_side {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      .section {
+        gap: 2rem;
+        flex-wrap: wrap;
+      }
+      .heading {
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 40px;
+      }
+      .descrption {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+      }
+    }
+  }
+
+  .main_section3 {
+    .title {
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 30px;
+      text-align: center;
+    }
+    .card_section {
+      justify-content: center;
+
+      .card_size {
+        max-width: 90%;
+
+        .card_description {
+          padding: 3%;
+          h3 {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 40px;
+          }
+          p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 25px;
+          }
+          a {
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 20px;
+
+            svg {
+              width: 15px;
+              height: 15px;
+            }
+          }
+        }
+      }
+    }
+    .btnSection .viewAllBtn {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 18px;
+      padding: 8px 25px 8px 25px;
+    }
+  }
+
+  .gallery_section {
+    .title {
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 50px;
+    }
+  }
+
+  .main_section7 {
+    .detailSection {
+      margin: 5%;
+
+      .coma {
+        font-size: 80px;
+        font-weight: 400;
+        line-height: 36px;
+      }
+      .description {
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 27px;
+        }
+        h4 {
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 16px;
+        }
+        h6 {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 23px;
+        }
+      }
+    }
+  }
+
+  .main_section6 {
+    .title {
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 30px;
+    }
+    .icon {
+      padding: 2px;
+      height: 30px;
+      width: 30px;
+    }
+    .description {
+      .heading {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 40px;
+        margin: 0;
+      }
+      .details {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        margin-bottom: 0 !important;
+      }
+    }
+  }
+
+  .main_section5 {
+    .leftSide {
+      .title {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30px;
+        // text-align: center;
+        margin-bottom: 5%;
+      }
+      .nameSection {
+        gap: 6%;
+        .image_section {
+          span {
+            padding: 5px;
+            height: 70px;
+            width: 70px;
+          }
+        }
+        .name {
+          h1 {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 25px;
+          }
+          p {
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+    .rightSide {
+      .form-control {
+        padding: 0.5rem 0.5rem;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18px;
+      }
+      .sendBtn {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18px;
+        padding: 10px 22px 10px 22px;
+      }
+    }
+  }
+
+  .main_section4 {
+    .title {
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 30px;
+      text-align: center;
+      margin-bottom: 2%;
+    }
+    .card_section {
+      justify-content: center;
+
+      .card_size {
+        max-width: 90%;
+
+        .card_description {
+          padding: 3%;
+          .date {
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 16px;
+          }
+          h3 {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 28px;
+            margin-bottom: 2%;
+          }
+          p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 25px;
+          }
+          a {
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 20px;
+
+            svg {
+              width: 15px;
+              height: 15px;
+            }
+          }
+        }
+      }
+    }
+    .start_section {
+      p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        margin-bottom: 4%;
+      }
+      .startBtn {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 15px;
+        padding: 6px 16px 6px 16px;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width:768px) {
+  .main_section1 {
+    .title {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 28px;
+      text-align: center;
+    }
+
+    .image_section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+
+      .image {
+        width: 250px;
+        height: 250px;
+      }
+
+      .description_section {
+        text-align: center;
+        .title2 {
+          font-size: 20px;
+          line-height: 30px;
+          font-weight: 500;
+        }
+      }
+    }
+    .getTouchBtn {
+      font-size: 16px;
+      line-height: 16.38px;
+      font-weight: 400;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+  }
+}

@@ -1,0 +1,209 @@
+.csDetails_section1 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  .topSection {
+    background-color: rgba(240, 240, 240, 1);
+    padding: 5%;
+    .Left_side {
+      img {
+        margin-bottom: 5%;
+      }
+      h1 {
+        font-family: Montserrat;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        color: black;
+      }
+      p {
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: black;
+      }
+    }
+
+    .right_side {
+      width: 300px;
+      height: 320px;
+      background-color: rgba(215, 215, 215, 0.6);
+    }
+  }
+  .situation {
+    margin-top: 5%;
+    h1 {
+      font-family: Montserrat;
+      font-size: 34px;
+      font-weight: 600;
+      line-height: 70px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+    p {
+      font-family: Montserrat;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 48px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+  }
+
+  .csTag {
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: rgba(0, 102, 73, 0.12);
+    padding: 0px 15px 0px 15px;
+    border-radius: 30px;
+  }
+}
+.csDetails_section2 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  .Left_side {
+    h1 {
+      font-family: Montserrat;
+      font-size: 34px;
+      font-weight: 600;
+      line-height: 70px;
+      letter-spacing: 0em;
+      text-align: left;
+
+      color: black;
+    }
+    p {
+      font-family: Montserrat;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 48px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: black;
+    }
+  }
+
+  .right_side {
+    width: 388px;
+    height: 363px;
+    background-color: rgba(215, 215, 215, 0.6);
+  }
+}
+.csDetails_section3 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  .Left_side {
+    margin-left: 5%;
+    h1 {
+      font-family: Montserrat;
+      font-size: 34px;
+      font-weight: 600;
+      line-height: 70px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    p {
+      font-family: Montserrat;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 48px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+
+  .right_side {
+    width: 388px;
+    height: 355px;
+    background-color: rgba(215, 215, 215, 0.6);
+  }
+
+  .technology {
+    margin-top: 5%;
+    padding: 5%;
+    background-color: rgba(240, 240, 240, 0.5);
+    h1 {
+      margin-bottom: 3%;
+      font-family: Montserrat;
+      font-size: 34px;
+      font-weight: 600;
+      line-height: 70px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+    .icons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 5%;
+    }
+  }
+
+  .relatedCase {
+    margin-top: 5%;
+    h1 {
+      font-family: Montserrat;
+      font-size: 34px;
+      font-weight: 600;
+      line-height: 70px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+}
+
+.csDetails_section4 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: space-between;
+
+  .Left_side {
+    h1 {
+      font-family: Poppins;
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 54px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: white;
+    }
+  }
+
+  .right_side {
+    p {
+      font-family: Montserrat;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 48px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: white;
+      margin-bottom: 5%;
+    }
+    .startBtn {
+      font-family: Montserrat;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      padding: 10px 32px 10px 32px;
+      border-radius: 4px;
+      color: black;
+      background-color: rgba(255, 255, 255, 1);
+    }
+  }
+}

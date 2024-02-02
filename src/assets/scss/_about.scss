@@ -1,0 +1,365 @@
+.about_section1 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  .title {
+    p {
+      font-family: Montserrat;
+      font-size: 50px;
+      font-weight: 600;
+      line-height: 70px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+  .description {
+    p {
+      font-family: Montserrat;
+      font-size: 26px;
+      font-weight: 500;
+      line-height: 48px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+}
+.about_section2 {
+  // padding: 8%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  align-items: center;
+
+  .left_side {
+    text-align: left;
+
+    p {
+      font-family: Montserrat;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 65px;
+      letter-spacing: 0em;
+      // text-align: left;
+    }
+
+    .contactBtn {
+      background-color: rgba(0, 102, 73, 1);
+      color: white;
+      font-family: Montserrat;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0em;
+      padding-top: 0.7rem;
+      padding-bottom: 0.7rem;
+    }
+  }
+
+  .right_side {
+    .section {
+      display: flex;
+      align-items: center;
+      gap: 6%;
+      text-align: left;
+    }
+    .heading {
+      font-family: Montserrat;
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 65px;
+      letter-spacing: 0em;
+      // text-align: left;
+      //   border-bottom: 1px solid rgba(198, 198, 198, 1);
+      padding-bottom: 3%;
+    }
+    .heading::after {
+      content: "";
+      border: 1px solid rgba(198, 198, 198, 1);
+      display: block;
+      width: 50%;
+    }
+    .descrption {
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 34px;
+      letter-spacing: 0em;
+      // text-align: left;
+    }
+  }
+}
+
+.about_section3 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  .left_side {
+    h1 {
+      font-family: Montserrat;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 65px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    p {
+      font-family: Montserrat;
+      font-size: 26px;
+      font-weight: 500;
+      line-height: 48px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    .contactBtn {
+      background-color: rgba(0, 102, 73, 1);
+      color: white;
+      font-family: Montserrat;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0em;
+      padding-top: 0.7rem;
+      padding-bottom: 0.7rem;
+    }
+  }
+
+  .right_side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .Image_section {
+      width: 385.91px;
+      height: 445.69px;
+      background-color: rgba(217, 217, 217, 1);
+    }
+  }
+}
+
+.about_section4 {
+  .barSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    .selected {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      .outerSpan {
+        width: 25px;
+        display: inline-flex;
+        border: none;
+        border-radius: 50%;
+        height: 25px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15%;
+        .innerSpan {
+          display: inline-block;
+          background: black;
+          width: 13px;
+          height: 13px;
+          border-radius: 50%;
+          background-color: rgba(217, 217, 217, 1);
+          // background-color:rgba(217, 217, 217, 1);
+        }
+      }
+
+      .year {
+        font-family: Montserrat;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(217, 217, 217, 1);
+      }
+    }
+
+    .active {
+      .outerSpan {
+        border: 1px solid rgba(0, 102, 73, 1);
+        .innerSpan {
+          background-color: rgba(0, 102, 73, 1);
+        }
+      }
+      .year {
+        color: rgba(0, 102, 73, 1);
+      }
+    }
+  }
+
+  .description_section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    .barSectionDetails {
+      align-items: center;
+      .barImage_section {
+        width: 453px;
+        height: 414px;
+        background-color: rgba(217, 217, 217, 1);
+      }
+    }
+
+    .detail_section {
+      h1 {
+        font-family: Montserrat;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 65px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      p {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .about_section1 {
+    .title {
+      p {
+        font-size: 35px;
+        line-height: 45px;
+      }
+    }
+    .description {
+      p {
+        font-size: 18px;
+        line-height: 30px;
+      }
+    }
+  }
+
+  .about_section2 {
+    .left_side {
+      text-align: left;
+      p {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 40px;
+      }
+      .contactBtn {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 15px;
+      }
+    }
+    .right_side {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      .section {
+        gap: 2rem;
+        flex-wrap: wrap;
+      }
+      .heading {
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 30px;
+      }
+      .descrption {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 18px;
+      }
+    }
+  }
+
+  .about_section3 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    .left_side {
+      h1 {
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 45px;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 33px;
+      }
+      .contactBtn {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+      }
+    }
+
+    .right_side {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5%;
+      .Image_section {
+        width: 250px;
+        height: 250px;
+      }
+    }
+  }
+
+  .about_section4 {
+    .barSection {
+      overflow: scroll;
+      gap: 20px;
+      .selected {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .outerSpan {
+          width: 20px;
+          height: 20px;
+          .innerSpan {
+            width: 10px;
+            height: 10px;
+          }
+        }
+
+        .year {
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 24px;
+        }
+      }
+    }
+
+    .description_section {
+      .barSectionDetails {
+        align-items: center;
+        .barImage_section {
+          width: 250px;
+          height: 250px;
+        }
+      }
+
+      .detail_section {
+        h1 {
+          font-size: 25px;
+          font-weight: 600;
+          line-height: 45px;
+        }
+        p {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+}
